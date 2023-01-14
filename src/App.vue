@@ -16,8 +16,8 @@ onMounted(() => {
 
     <div class='page'>
         <div class='header'>
-            <div>
-                <img alt="Vue logo" class="responsive" src="./assets/header.svg" height="100" />
+            <div class="header_pad">
+                <img alt="Vue logo" class="responsive" src="./assets/header.svg" height="90" />
             </div>
         </div>
 
@@ -92,13 +92,17 @@ onMounted(() => {
 
 
 <style scoped>
+.header_pad{
+    padding: 10px;
+}
+
 .title {
   font-size: 3rem;
   font-weight: 700;
   letter-spacing: -.1rem;
   line-height: 2.5rem;
   padding-bottom: 2.5rem;;
-
+  color: white;
 }
 .container {
     display: grid;
